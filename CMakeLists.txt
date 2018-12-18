@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 3.5)
+project(hello)
+find_package(OpenCV REQUIRED)
+add_subdirectory(src)
+set (SRC_APP main.cpp)
+add_executable(main ${SRC_APP})
+target_link_libraries(main libhello)
