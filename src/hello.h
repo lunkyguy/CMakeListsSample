@@ -9,5 +9,5 @@
 #else
 #define LIBHELLO_API
 #endif // #ifdef WIN32
-LIBHELLO_API extern "C" void Hello2(const char* text);
+LIBHELLO_API void Hello2(const char* text);
 #endif // __HELLO_H__
