@@ -1,6 +1,6 @@
 #ifndef __HELLO_H__
 #define __HELLO_H__
-#ifdef WIN32
+#ifdef  _MSC_VER
 #ifdef LIBHELLO_BUILD
 #define LIBHELLO_API __declspec(dllexport)
 #else
